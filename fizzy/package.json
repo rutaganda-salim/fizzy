@@ -1,9 +1,9 @@
 {
-  "name": "fizzi",
+  "name": "fizzy",
   "version": "0.1.0",
   "private": true,
-  "license": "Apache-2.0",
-  "author": "Prismic <contact@prismic.io> (https://prismic.io)",
+  "license": "MIT",
+  "author": "Salim Rutaganda",
   "scripts": {
     "dev": "concurrently \"npm:next:dev\" \"npm:slicemachine\" --names \"next,slicemachine\" --prefix-colors blue,magenta",
     "next:dev": "next dev",
@@ -17,8 +17,8 @@
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@prismicio/client": "^7.11.0",
-    "@prismicio/next": "^1.6.0",
-    "@prismicio/react": "^2.8.0",
+    "@prismicio/next": "^1.7.0",
+    "@prismicio/react": "^2.9.0",
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.6",
     "@types/three": "^0.167.2",
@@ -31,7 +31,7 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
-    "@slicemachine/adapter-next": "^0.3.46",
+    "@slicemachine/adapter-next": "^0.3.51",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -43,7 +43,7 @@
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "r3f-perf": "^7.2.1",
-    "slice-machine-ui": "^2.5.0",
+    "slice-machine-ui": "^2.8.1",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.4.5"
   }
