@@ -10,8 +10,9 @@ This project showcases a 3D animated website built using Framer Motion.
 
 ## Technologies Used
 
-- React.js
+- Next.js 14
 - Framer Motion
 - Three.js (for 3D rendering)
+- Prismic.io as headless CMS
 
 
